@@ -20,7 +20,7 @@ function Todo() {
     }
 
     const handleDelete = () => {
-
+        
     }
 
     return (
@@ -48,7 +48,15 @@ function Todo() {
                         }}
                     >
                         <li>{value}</li>
-                        <span onClick={handleDelete}>...Xóa</span>
+                        <span
+                            onClick={handleDelete}
+                            style={{
+                                marginLeft: '15px',
+                                cursor: 'pointer'
+                            }}
+                        >
+                            Xóa
+                        </span>
                     </div>
                 ))}
             </ul>

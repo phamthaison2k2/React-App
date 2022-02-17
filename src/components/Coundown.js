@@ -2,7 +2,7 @@ import { useState, useRef } from 'react'
 
 function Coundown() {
     
-    const [countDown, setCountDown] = useState(10)
+    const [countDown, setCountDown] = useState(60)
 
     let timer = useRef()
 
